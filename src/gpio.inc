@@ -1,0 +1,20 @@
+.equ GPIO_INPUT_VAL,        0x00
+.equ GPIO_INPUT_EN,         0x04
+.equ GPIO_OUTPUT_EN,        0x08
+.equ GPIO_OUTPUT_VAL,       0x0C
+.equ GPIO_PULLUP_EN,        0x10
+.equ GPIO_DRIVE_STRENGTH_EN,0x14
+.equ GPIO_RISE_INTERR_EN,   0x18
+.equ GPIO_RISE_INTERR_PEND, 0x1C
+.equ GPIO_FALL_INTERR_EN,   0x20
+.equ GPIO_FALL_INTERR_PEND, 0x24
+.equ GPIO_HIGH_INTERR_EN,   0x28
+.equ GPIO_HIGH_INTERR_PEND, 0x2C
+.equ GPIO_LOW_INTERR_EN,    0x30
+.equ GPIO_LOW_INTERR_PEND,  0x34
+.equ GPIO_OUTPUT_XOR,       0x40
+
+.equ GPIO_RED_LED,          0x01
+.equ GPIO_BLUE_LED,         0x02
+.equ GPIO_GREEN_LED,        0x04
+.equ GPIO_RGB_PINS,         0x07
